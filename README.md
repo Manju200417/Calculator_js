@@ -24,7 +24,7 @@ This is a **responsive calculator web application** built using **HTML**, **CSS*
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
 ---
 
