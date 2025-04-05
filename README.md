@@ -47,3 +47,11 @@ This is a **responsive calculator web application** built using **HTML**, **CSS*
 
 ## 📂 Project Structure 
 
+Calculator  
+├── index.html   # Main HTML structure   
+├── style.css    # Styling for the calculator and contact section  
+├── script.js    # JavaScript logic for calculator operations   
+
+
+Made with ❤️ by **Manju**
+
