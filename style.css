@@ -19,7 +19,7 @@ body {
     border-radius: 30px;
     padding: 10px;
     border: 2px solid rgb(85, 255, 0);
-    box-shadow: 10px 10px 1000px rgb(0, 255, 119);
+    box-shadow: 10px 10px 1000px rgb(0, 255, 234);
 }
 
 .display {
@@ -45,7 +45,7 @@ input {
 }
 
 button {
-    background-color: rgb(255, 225, 188);
+    background-color: rgb(132, 184, 184);
     padding: 15px;
     border-radius: 50px;
     border: 0;
@@ -54,19 +54,21 @@ button {
     transition: hover, 0.3s;
     box-shadow: 0px 3.4px 6px;
     cursor: pointer;
+    font-family: Comic Sans MS;
+    transition: transform 1s;
 }
 
 button:hover {
-    background-color: rgb(253, 137, 137);
+    background: linear-gradient(135deg, rgb(0, 255, 213), rgb(249, 253, 0));
     box-shadow: 0px 3px 5px;
-    transform: translateY(-4px);
+    transform: translateY(-7px);
     transition: all 0.2s;
     color: rgb(0, 0, 0);
     font-weight: bolder;
 }
 
 button:active {
-    background-color: rgb(30, 247, 30);
+    background-color: rgb(33, 240, 33);
     box-shadow: 0px 1px 3px;
     transform: translateY(4px);
     transition: all 0.2s;
@@ -79,9 +81,18 @@ button:active {
     justify-content: center;
     align-items: center;
 }
-h1{
+
+h1 {
     margin: 0;
     font-size: 30px;
+    font-family: Comic Sans MS;
+    text-shadow: 0 0 8px #00ffe1, 0 0 12px #ff0077;
+}
+
+.op {
+    font-weight: bolder;
+    background-color: rgb(95, 170, 170);
+
 }
 
 /*______________________Contact____________________________*/
@@ -90,6 +101,7 @@ h1{
     text-align: center;
     margin-top: 4vh;
     height: 50vh;
+    font-family: Comic Sans MS;
 }
 
 #contact h3 {
@@ -114,10 +126,12 @@ h1{
     text-decoration: none;
     color: rgb(191, 191, 191);
     font-size: 18px;
+    font-family: Comic Sans MS;
+    transition: 0.2s;
 }
 
 .links a:hover {
-    color: rgb(108, 255, 59);
+    color: rgb(0, 255, 34);
 }
 
 .link_icons {
@@ -125,4 +139,10 @@ h1{
     height: 40px;
     width: 40px;
     object-fit: contain;
+    transition: 0.4s;
+}
+
+.link_icons:hover {
+    filter: invert(0);
+    transform: scale(1.1, 1.1);
 }
