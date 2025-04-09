@@ -31,7 +31,7 @@ This is a **responsive calculator web application** built using **HTML**, **CSS*
 ## 📸 Screenshots
 
 
-*![image](https://github.com/user-attachments/assets/52179014-0601-499f-aee0-6b5abfec483a)*
+![image](https://github.com/user-attachments/assets/db20aeca-44e3-4f3e-a1fb-cdac3c98f255)
 
 
 ---
